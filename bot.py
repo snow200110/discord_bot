@@ -138,7 +138,7 @@ async def on_message(message):
     await message.reply(reply_msg)
 
 # 讀取 Discord Token 啟動
-DISCORD_TOKEN = os.getenv('MTUxMDk4ODM3MjYyNDI3NzYzNA.GS8X_J.r1iJjOZe7jMrXuSAjAN1rPyp8KoeIw3_F3bjmE')
+DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
 if DISCORD_TOKEN:
     client.run(DISCORD_TOKEN)
 else:
